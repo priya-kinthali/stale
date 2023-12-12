@@ -177,6 +177,7 @@ async function processOutput(
  * @description
  * From an argument name, get the value as an optional boolean
  * This is very useful for all the arguments that override others
+ *
  * It will allow us to easily use the original one when the return value is `undefined`
  * Which is different from `true` or `false` that consider the argument as set
  *
